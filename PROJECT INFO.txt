@@ -1,0 +1,10 @@
+**Developed By SEBASTIAN AKAXOXO**
+
+**Instructions**
+- Install the Requirements: pip install -r requirements.txt
+- python manage.py migrate, which I don't think is neccesary
+	because there is no use of db in the project
+- And finally, run the application: python manage.py runserver
+
+
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<title>Project Info</title>
+	<style type="text/css">
+		*{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        max-width: 100vw;
+      }
+
+      body{
+        width: 100%;
+        height: 100%;
+        padding: 2vw;
+        background-image:url("static/main/img/bg-3.jpg" );
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #cccccc;
+      }
+	</style>
+</head>
+<body class="p-3">
+	<main class="container">
+		<p class="mb-3">
+			<a href="{% url 'index' %}">Back to prediction page</a>
+		</p>
+
+		<div class="container">
+			<h1 class="display-1 mb-2 p-2" style="color:navy;">
+				TensorFlow with Dango
+			</h1>
+			
+			<p class="lead">
+				With a model accuracy of roughly
+				<span style="color:red;">60%</span>, this project was my first-ever deep learning model developed with TensorFlow. <span style="color:navy;">Cats, dogs, and parrots </span> were used to train the model, which will eventually be expanded. There are a total of <span style="color:red;">1800,</span> photos, <span style="color:red;">600</span> in each category.
+			</p>
+			<p class="lead">
+				<span title="Sebastian Akaxoxo">I</span> created this project after being inspired by the recent use of Artificial intelligence and machine learning in almost all over the world.
+				
+			</p>
+
+
+			<h2 class="display-4mb-2 p-2" style="color:navy;">
+				Project Instructions
+				
+			</h2>
+
+			<ul>
+				
+				<li>
+					Install Project Requirements:
+					<span style="color:red">
+						pip install -r requirements.txt
+					</span> 
+				</li>
+				<li>
+					Run <span style="color:red">python manage.py migrate</span>
+				</li>
+
+				<li>
+					Run the application: 
+					<span style="color:red">
+						python manage.py runserver
+					</span>
+				</li>
+
+				<li>
+				And finally, copy and paste this link in your browser <span style="color:red;">http://127.0.0.1:8000/</span> 
+				</li>
+			</ul>
+
+			<p class="lead">
+				Clone or download project from my
+				<a href="https://github.com/sakaxo/tensorflow_with_django" target="_blank" style="color:red;">repo
+				</a>
+			</p>
+
+		</div>
+
+
+		
+	</main>
+
+</body>
+</html>
