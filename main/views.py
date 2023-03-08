@@ -45,7 +45,7 @@ def home(request):
 		img = np.expand_dims(img_arr,0) # shape img to (1,img_size,img_size)
 
 		#  load model 
-		model_path = os.getcwd() + '/animal_model.h5'
+		model_path = os.getcwd() + '/model.h5'
 		model = load_model(model_path)
 
 		# make prediction
